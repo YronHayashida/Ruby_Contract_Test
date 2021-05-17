@@ -5,7 +5,7 @@ Feature: Get data from Country
 
     Scenario: get response from Brazil
         Given the endpoint to get datas from contry
-        When Send the request to endpoint
+        When Send the request to endpoint as 'Brazil'
         Then Should return code 200
         Then the contract should be correct
 
